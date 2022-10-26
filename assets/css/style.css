@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clear{
+    clear: both;
+}
+.font{
+    font-size: 14px;
+    color: #666666;
+    font-weight: 400;
+    margin: 0;
+}
+.color{
+   color: #00b4d9;
+}
+
+main{
+
+}
+#header{
+    height: 46px;
+    background-color: red;
+    position: fixed;
+    top: 0;
+    right: 0; 
+    left: 0;
+    z-index: 1;
+}
+.row{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.mt-32{
+    margin-top: 32px !important;
+}
+
+
+
+.nav{
+    display: flex;
+    height: 2000px;
+   
+}
+.img{
+    padding: 0 50px;
+    float: left;
+}
+.btn{
+    opacity: 0.9;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    color: rgb(0,0,0,0.9); 
+}
+.btn-common{
+    background-color: #00b4d9 !important;
+    z-index: 1;
+}
+.col-four{
+   width: 25%;
+   float: left;
+   border: 1px solid #ccc;
+   padding: 48px 20px;
+   text-align: center;
+display: block;
+}
+.section-padding{
+   padding: 100px 0;
+   display: inline;
+ 
+}
+.nav li{
+    display: inline-block;
+}
+.nav li a{
+    color: #000;
+    text-decoration: none;
+    padding: 0 17px;
+    line-height: 46px;
+    cursor: pointer;
+   
+}
+
+
+.nav li:hover a{
+    color:#00b4d9;
+    cursor: pointer;
+}
+
+#slider{
+    overflow: hidden;
+    position: relative;
+     margin-top: 46px;
+     padding-top: 50%;
+     background: url('/f8_blog/assets/img/sider/sider1.jpg') no-repeat top center/cover;
+}
+.text-content{
+    color: #fff;
+    position: absolute;
+    bottom: 145px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.text-descritption{
+    font-weight: 500;
+    font-size: 50px;
+}
+.text-header{
+    letter-spacing: 10px;
+    text-transform: uppercase;
+     margin-top: 16px;
+     font-size: 60px;
+}
+.text-fornt{
+    font-weight: 500;
+    margin-bottom: 25px;
+    font-size: 30px;
+   
+}
+#slider #button{
+    background-color: #00b4d9;
+    color: #fff;
+    padding: 10px 30px;
+   border-radius: 4px;
+   border: none;
+}
+
+#content{
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+}
+#content .section-img{
+    width: auto;  
+    border: 8px solid #fff;
+    box-shadow: 0px 0px 30px rgb(0 0 0 / 20%);
+}
+#content .information-content{
+    width: auto;
+    padding: 45px 0;
+    line-height: 1.4;
+    margin: 0 32px;
+}
+.section-header .section-list{
+    margin-top: 32px;
+    list-style: none;
+    margin-bottom: 32px;
+   
+    
+}
+.section-header .section-list::after{
+  
+    position: absolute;
+}
+.section-header .hello{
+    font-size: 38px;
+    font-weight: 700;
+  
+}
+
+.section-list .information-list{
+    font-weight: 700;
+    color: #040404;
+    width: 120px;
+    display: inline-block;
+    margin-bottom: 5px;
+    list-style: none;
+    position: relative;
+}
+.information-list::after{
+    content: ':';
+    color: #040404;
+    font-size: 14px;
+    left: 100px;
+    position: absolute;
+}
+
+.btn{
+    padding: 10px 30px;
+    color:#fff;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+    
+}
+
+
+
+.btn-danger{
+  margin-left:10px ;
+    background-color: #dc3545;
+  
+}
+.content-Services{
+    background: #f0f0f0;
+}
+.content-Services.header-Services{
+    color: #000;
+}
+.table-Services{
+    text-align: center;
+    display: flex ;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 20%);
+   
+}
+
+.header-Services{
+    text-align: center; 
+    padding: 0 10px;
+}
+
+.Services-1
+{
+    margin-left: 32px; 
+    
+}
+.table-Services .icon{
+    font-size: 50px;
+    box-sizing: border-box;
+    
+}
+.table-Services .he1{
+   color: #000;
+}
+.header-Services .he1:hover{
+    color: #00b4d9;
+    cursor: pointer;
+}
+#footer{
+
+}
